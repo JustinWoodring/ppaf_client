@@ -51,6 +51,7 @@ export default function Analyses({}) {
                 kind: kind
             }).then((res)=>{
                 console.log(res)
+                //console.log(axios.get("/analysis/16"))
                 toggle()
             })
         }
